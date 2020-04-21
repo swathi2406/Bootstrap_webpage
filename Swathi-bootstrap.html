@@ -1,0 +1,294 @@
+<html>
+  <head>
+    <title> Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+            <script src="jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="assets/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".flip").hover(function(){
+    $(".panel").slideDown("slow");
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".flip1").hover(function(){
+    $(".panel1").slideDown("slow");
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".flip2").hover(function(){
+    $(".panel2").slideDown("slow");
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".flip3").hover(function(){
+    $(".panel3").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".flip4").hover(function(){
+    $(".panel4").slideDown("slow");
+  });
+});
+
+</script>
+<script>
+$(document).ready(function(){
+  $(".flip5").hover(function(){
+    $(".panel5").slideDown("slow");
+  });
+});
+
+</script>
+</script>
+
+    <style>
+      *{
+        padding:0em;
+        margin: 0;
+      }
+           .img1{
+               /* padding-left: 1px; */
+               width: 100%; 
+               /* padding-bottom: 0; */
+               /* position: relative; */
+               /* float: left; */
+           }
+           .carousel-inner{
+             height: 400px;
+           }
+           body
+           {
+               background-color: whitesmoke;
+               padding-top: 70px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-style: oblique;
+               color: black;
+               
+           }
+           .fixed
+           {
+                background-color:#f3f3f3;
+                width: 100%; /* Full width */
+           }
+           .panel, .flip, .panel1, .flip1, .panel2, .flip2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.panel3, .flip3, .panel4, .flip4, .panel5, .flip5 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.panel,.panel1,.panel2,.panel3,.panel4,.panel5 {
+  padding: 50px;
+  display: none;
+}
+.panel3,.panel4,.panel5 {
+  padding: 50px;
+  display: none;
+}
+           .card{
+               
+               position: relative;
+               padding: 0px;
+               margin-left: 30px;
+               margin-top: 30px;
+               box-shadow: inset 0px 0px 0px wheat;
+               background-color: lightgrey;
+               margin-bottom: 20px;
+               border-radius: 5px;
+           }
+           .card-img-top
+           {
+            box-shadow: 0px 0px 20px black;
+            padding-left: -10px -10px;
+            border-radius: 5px;
+           }
+           .card-body
+           {
+            box-shadow: 0px 0px 0px black;
+            padding-right: 10px;
+              padding-left: 10px;
+
+           }
+       </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-default navbar-fixed-top">   
+            <div class="container-fluid fixed"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WallPaper Download</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a   href="#">Page 1</a></li>
+                    <li><a   href="#">Page 2</a></li>
+                    <li><a   href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a   href="#">Register</a></li>
+                    <li><a   href="#">Sign-Up</a></li>
+                </ul>
+            </div>
+        </nav> 
+
+        <div class="container col-md-6 col-md-offset-3">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="imgs/bg3.jpg" alt="..."class="img1">
+              </div>
+              <div class="item" >
+                <img src="imgs/bg1.jpg " alt="..."class="img1">
+              </div>
+              <div class="item">
+                <img src="imgs/bg2.jpg " alt="..."class="img1">
+              </div>
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>  
+        <br>
+        <br>
+        <br>     
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card flip" style="width: 300px;">
+                        <img src="work1.jpg" class="card-img-top" alt="..." width="300px">
+                        <div class="card-body">
+                          <h5 class="card-title"><center><strong>ID: 0</strong></center></h5>
+                          <p class="flip"><b>Author:</b>Lorem</p>
+                          <p class="card-text text-justify panel "><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.</p>
+                            <center><a href="#" class="btn btn-primary">Download</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flip1" style="width: 300px;">
+                        <img src="work2.jpg" class="card-img-top " alt="..." width="300px">
+                        <div class="card-body">
+                          <h5 class="card-title"><center><strong>ID: 1</strong></center></h5>
+                          <p class="flip1"><b>Author:</b>Lorem</p>
+                          <p class="card-text text-justify panel1"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.</p>
+                            <center><a href="#" class="btn btn-primary">Download</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flip2" style="width: 300px;">
+                        <img src="work3.png " class="card-img-top " alt="..." width="300px">
+                        <div class="card-body">
+                          <h5 class="card-title"><center><strong>ID: 2</strong></center></h5>
+                          <p class="flip2"><b>Author:</b>Lorem</p>
+                          <p class="card-text text-justify panel2"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.</p>                          
+                          <center><a href="#" class="btn btn-primary">Download</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card flip3" style="width: 300px;">
+                        <img src="work1.jpg" class="card-img-top" alt="..." width="300px">
+                        <div class="card-body">
+                          <h5 class="card-title"><center><strong>ID: 0</strong></center></h5>
+                          <p class="flip3"><b>Author:</b>Lorem</p>
+                          <p class="card-text text-justify panel3"><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.</p>
+                          <center><a href="#" class="btn btn-primary">Download</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card flip4" style="width: 300px;">
+                        <img src="work2.jpg" class="card-img-top " alt="..." width="300px">
+                        <div class="card-body">
+                          <h5 class="card-title"><center><strong>ID: 1</strong></center></h5>
+                          <p class="flip4"><b>Author:</b>Lorem</p>
+                          <p class="card-text text-justify panel4"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.</p>
+                          <center><a href="#" class="btn btn-primary">Download</a></center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flip5" style="width: 300px;">
+                        <img src="work3.png " class="card-img-top" alt="..." width="300px">
+                        <div class="card-body">
+                          <h5 class="card-title"><center><strong>ID: 2</strong></center></h5>
+                          <p class="flip5"><b>Author:</b>Lorem</p>
+                          <p class="card-text text-justify panel5"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam in laborum neque natus sed aut esse atque facere quas, ullam nisi.</p>
+                          <center><a href="#" class="btn btn-primary">Download</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
